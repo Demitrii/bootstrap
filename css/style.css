@@ -1,0 +1,60 @@
+* {box-sizing: border-box;}
+body {
+   margin: 0;
+   padding: 0;
+}
+.container {
+   width: 80%;
+   margin: auto;
+}
+.blok-list ul {
+   display: inline-block;
+   list-style-type: none;
+}
+.blok-images img {
+   width: 100%;
+   
+}
+.blok-form {
+   width: 90%;
+}
+.catalog {
+   width: 100%;
+   text-align: center;
+}
+.stages {
+   text-align: center;
+}
+.rental {
+   text-align: center;
+}
+.conditions {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   text-align: center;
+}
+
+.cart ul {
+list-style-type: none;
+}
+.cart a {
+   text-decoration: none;
+   color: white;
+
+}
+
+.footer {
+   background-color: black;
+   color: white;
+}
+.footer-cart {
+   display: flex;
+   justify-content: space-evenly;
+   text-align: flex-start;
+   width: 100%;
+}
+
+.footer-logo {
+   text-align: center;
+}
